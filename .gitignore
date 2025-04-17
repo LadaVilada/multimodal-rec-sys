@@ -1,0 +1,32 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+
+# IntelliJ / PyCharm
+.idea/
+*.iml
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# PyTorch or TensorFlow model files
+*.ckpt
+*.h5
+*.pt
+*.pth
+*.tflite
+
+# Dataset or cache folders
+data/
+datasets/
+cache/
+logs/
+checkpoints/
+runs/
+
+# Environment and config files
+.env
+*.log
