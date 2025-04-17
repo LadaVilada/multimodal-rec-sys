@@ -1,0 +1,20 @@
+# --- Core APIs ---
+fastapi
+uvicorn[standard]
+
+# --- Machine Learning ---
+torch             # or torch==2.x.x based on your platform
+transformers      # HuggingFace models
+scikit-learn      # Useful for metrics, similarity, etc.
+
+# --- Data Handling ---
+pandas
+numpy
+
+# --- Image & Video (optional now, for future) ---
+opencv-python
+Pillow
+
+# --- Dev tools (optional) ---
+python-dotenv     # For loading env vars
+jupyter           # If using notebooks
